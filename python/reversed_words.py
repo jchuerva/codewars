@@ -14,4 +14,6 @@ def reverseWords(str):
     separator = " "
 
     return separator.join(words)
+    # return " ".join(str.split(" ")[::-1])
+    # return ' '.join(reversed(str.split(' ')))
 
